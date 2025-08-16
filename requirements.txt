@@ -1,0 +1,7 @@
+cryptography
+python-jose[cryptography]
+boto3
+jwcrypto
+python-dotenv
+requests
+fastapi[standard]
