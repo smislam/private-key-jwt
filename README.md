@@ -1,6 +1,6 @@
 # Private Key JWT Authentication for Enterprise Security
 
-In this project, we implement the OIDC `Private Key JWT` for System To System Authentication.  The Private Key JWT authentication method enhances OAuth 2.0 security by requiring clients to generate a signed JSON Web Token (JWT) using an asymmetric private key.  This approach eliminates the need to store or transmit client secrets, dramatically reducing the risk of credential exposure, and aligns with high security requirements for the [Financial-grade API (FAPI)](https://openid.net/specs/openid-financial-api-part-2_1.html)
+In this project, we implement the OIDC `Private Key JWT` for System To System Authentication.  The Private Key JWT authentication method enhances OAuth 2.0 security by requiring clients to generate a signed JSON Web Token (JWT) using an asymmetric private key.  This approach eliminates the need to store or transmit client secrets, dramatically reducing the risk of credential exposure, and aligns with high security requirements for the [Financial-grade API (FAPI)](https://openid.net/specs/fapi-security-profile-2_0-final.html)
  Security Profile defined by the OpenID Foundation.
 
 This example uses [RFC 7521 - Assertion Framework](https://www.rfc-editor.org/rfc/rfc7521.html) and [RFC 7523 - JWT Profile for Client Authentication](https://www.rfc-editor.org/rfc/rfc7523.html) implementation.
