@@ -1,12 +1,12 @@
 # Private Key JWT Authentication for Enterprise Security
 
-In this project, we implement the OIDC `Private Key JWT` for System To System Authentication.  The Private Key JWT authentication method enhances OAuth 2.0 security by requiring clients to generate a signed JSON Web Token (JWT) using an asymmetric private key.  This approach eliminates the need to store or transmit client secrets, dramatically reducing the risk of credential exposure, and aligns with high security requirements for the [Financial-grade API (FAPI)](https://openid.net/specs/fapi-security-profile-2_0-final.html)
- Security Profile defined by the OpenID Foundation.
+In this project, we implement the OIDC `Private Key JWT` for System To System Authentication.  The Private Key JWT authentication method enhances OAuth 2.0 security by requiring clients to generate a signed JSON Web Token (JWT) using an asymmetric private key.  This approach eliminates the need to store or transmit client secrets, dramatically reducing the risk of credential exposure, and aligns with high security requirements for the [Financial-grade API (FAPI)](https://openid.net/specs/fapi-security-profile-2_0-final.html) Security Profile defined by the OpenID Foundation.
+
+[Read the Medium article on this topic.](https://medium.com/@smislam_53676/level-up-your-api-security-with-private-key-jwt-75f12297b605)
 
 This example uses [RFC 7521 - Assertion Framework](https://www.rfc-editor.org/rfc/rfc7521.html) and [RFC 7523 - JWT Profile for Client Authentication](https://www.rfc-editor.org/rfc/rfc7523.html) implementation.
 
 > *If you are still using `Client_Credentials` grant flow, please see my Github project on how you can [Securly Shrare Secrets](https://github.com/smislam/securely-share-secrets).*
-
 
 ## Problems with Traditional Client Authentication
 
@@ -166,6 +166,6 @@ sequenceDiagram
 # References
 - [KeyCloak](https://www.keycloak.org/)
 - [FastAPI](https://fastapi.tiangolo.com/)
-- [Financial-grade API (FAPI) spec](https://openid.net/specs/openid-financial-api-part-2_1.html)
+- [Financial-grade API (FAPI) spec](https://openid.net/specs/fapi-security-profile-2_0-final.html)
 - [RFC 7521 - Assertion Framework](https://www.rfc-editor.org/rfc/rfc7521.html)
 - [RFC 7523 - JWT Profile for Client Authentication](https://www.rfc-editor.org/rfc/rfc7523.html)
